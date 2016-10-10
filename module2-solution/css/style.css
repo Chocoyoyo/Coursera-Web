@@ -50,12 +50,17 @@ text-indent: 2em;
 .yellow{
 	background-color: yellow;
 }
+.pur{
+	background: #D28DE5;
 /*Tablet view*/
-
+}
 @media (min-width: 768px) and (max-width: 991px) {
 	section {
 	width: 49.5%;
 	margin-bottom: 5px;
+}
+body section:nth-child(4){
+	width: 99.5%
 }
 	
 }
